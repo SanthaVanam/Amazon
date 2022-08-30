@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AmazonSuite1" duration-ms="84281" started-at="2022-08-29T17:39:01 IST" finished-at="2022-08-29T17:40:26 IST">
+    <groups>
+    </groups>
+    <test name="AmazonLogin" duration-ms="84281" started-at="2022-08-29T17:39:01 IST" finished-at="2022-08-29T17:40:26 IST">
+      <class name="com.Amazon.testCases.LoginCaseAmazon">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Amazon.testCases.LoginCaseAmazon@80169cf]" name="setup" is-config="true" duration-ms="31819" started-at="2022-08-29T17:39:14 IST" finished-at="2022-08-29T17:39:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterUserCredentials()[pri:0, instance:com.Amazon.testCases.LoginCaseAmazon@80169cf]" name="enterUserCredentials" duration-ms="38933" started-at="2022-08-29T17:39:45 IST" finished-at="2022-08-29T17:40:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserCredentials -->
+        <test-method status="PASS" signature="newFailTestCase()[pri:0, instance:com.Amazon.testCases.LoginCaseAmazon@80169cf]" name="newFailTestCase" duration-ms="569" started-at="2022-08-29T17:40:25 IST" finished-at="2022-08-29T17:40:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newFailTestCase -->
+      </class> <!-- com.Amazon.testCases.LoginCaseAmazon -->
+    </test> <!-- AmazonLogin -->
+  </suite> <!-- AmazonSuite1 -->
+</testng-results>

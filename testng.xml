@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AmazonSuite1">
+
+
+ <listeners>
+<listener class-name="com.Amazon.utilities.Reporting1"/>
+</listeners> 
+
+<parameter name="browserName" value="chrome" />
+ 
+	<test name="AmazonLogin">
+		<classes>
+			<class name="com.Amazon.testCases.LoginCaseAmazon" />
+		</classes>
+	</test>
+	
+
+	
+	<!-- 
+			 <test name="CountriesListTest">
+		<classes>
+			<class name="com.Amazon.testCases.CountriesDDCaseAmazon" />
+		</classes>
+	</test>
+	
+		<test name="SlideImageLinkTest">
+		<classes>
+			<class name="com.Amazon.testCases.GettingSlideImageLinkCaseAmazon" />
+		</classes>
+	</test> 
+	<test name="AmazonLoginDDT">
+		<classes>
+			<class name="com.Amazon.testCases.DDTLoginCaseAmazon" />
+		</classes>
+	</test>
+
+	<test name="AmazonSearchDDT">
+		<classes>
+			<class name="com.Amazon.testCases.DDTSearchCaseAmazon" />
+		</classes>
+	</test>
+ 
+
+		
+	<test name="KnowItemsListTest">
+		<classes>
+			<class name="com.Amazon.testCases.GoodsType" />
+		</classes>
+	</test>
+	 
+
+
+	
+	
+	
+ 
+	
+	
+		<test name="PlacingOrderTest">
+		<classes>
+			<class name="com.Amazon.testCases.PlacingOrder" />
+		</classes>
+	</test> 
+	
+	 -->
+
+	
+</suite>
+
+
+
